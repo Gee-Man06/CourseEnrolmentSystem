@@ -16,6 +16,7 @@ import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import za.ac.cput.shared.loginNetwork.LoginRequest;
+//import za.ac.cput.shared.loginNetwork.LoginRequest;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -211,13 +212,6 @@ public void login() {
         }
     }).start();
 }
-
-
-
-
-
-
-
 
 }
 

@@ -13,13 +13,20 @@
     </properties>
     
     
-  <dependencies>  
- <dependency>
-    <groupId>za.ac.cput</groupId>
-    <artifactId>Shared</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</dependency>
-</dependencies>
+  <dependencies> 
+      <dependency>
+          <groupId>za.ac.cput.courseenrolmentsystem</groupId>
+          <artifactId>Shared</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>org.apache.derby</groupId>
+          <artifactId>derby</artifactId>
+          <version>10.17.1.0</version>
+      </dependency>
+  
+  </dependencies>
     
     
     

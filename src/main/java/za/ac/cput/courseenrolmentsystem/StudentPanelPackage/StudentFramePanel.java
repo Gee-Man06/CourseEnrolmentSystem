@@ -112,7 +112,7 @@ private JLabel lblWelcome;
         
            new Thread(() -> Enrol(studentName)).start();
                   });
-      btnLogout.addActionListener(e -> new Thread(this:: logout).start());
+      //btnLogout.addActionListener(e -> new Thread(this:: logout).start());
        btnExit.addActionListener(e -> new Thread(this:: Exit).start());
       btnMyEnrol.addActionListener(e -> {
           
